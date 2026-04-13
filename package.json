@@ -1,0 +1,9 @@
+{
+  "name": "netwebmedia",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NetWebMedia launch-ready marketing site and operating assets.",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

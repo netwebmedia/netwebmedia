@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "alerta-comunidad",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["community-alert-app/server.js"],
+      "port": 3000
+    },
+    {
+      "name": "poker-news",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["http-server", "poker-news", "-p", "8080", "-c-1"],
+      "port": 8080
+    }
+  ]
+}
